@@ -1,11 +1,14 @@
-﻿using System;
+﻿//using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EVIC;
+//using EVIC_ConsoleApp;
+//using EVIC_Tests;
+using EVIC_ConsoleApp;
 
-namespace EVICTests
+
+namespace EVIC_Tests
 {
     [TestClass]
-    public class ModelTest
+    public class ModelTests
     {
         //Create an instance of the model class to test
         private Model data = new Model();

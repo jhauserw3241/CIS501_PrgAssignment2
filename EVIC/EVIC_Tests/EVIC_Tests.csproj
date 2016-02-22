@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0942307E-0A56-43E6-A39A-D0F95C4E8B90}</ProjectGuid>
+    <ProjectGuid>{DE52A657-3EE8-4BE4-9FCD-E64EA427C4CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EVICTests</RootNamespace>
-    <AssemblyName>EVICTests</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>EVIC_Tests</RootNamespace>
+    <AssemblyName>EVIC_Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -52,20 +52,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ControllerTest.cs" />
-    <Compile Include="ModelTest.cs" />
-    <Compile Include="OdometerTests.cs" />
-    <Compile Include="SimulatorTest.cs" />
-    <Compile Include="TemperatureTests.cs" />
-    <Compile Include="DashboardDisplayTest.cs" />
-    <Compile Include="ProgramTest.cs" />
-    <Compile Include="WarningTests.cs" />
+    <Compile Include="ControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ModelTests.cs" />
+    <Compile Include="TemperatureTests.cs" />
+    <Compile Include="OdometerTests.cs" />
+    <Compile Include="DashboardDisplayTests.cs" />
+    <Compile Include="SimulatorTests.cs" />
+    <Compile Include="WarningTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EVIC\EVIC-Console.csproj">
-      <Project>{7459fd72-823d-4072-ae6c-885b2d94054e}</Project>
-      <Name>EVIC-Console</Name>
+    <ProjectReference Include="..\EVIC_ConsoleApp\EVIC_ConsoleApp.csproj">
+      <Project>{0ab6ef6c-c920-4eda-a631-982a3a95c9f1}</Project>
+      <Name>EVIC_ConsoleApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

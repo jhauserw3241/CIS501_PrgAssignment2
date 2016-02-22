@@ -1,26 +1,23 @@
-﻿/**
- *Authors: Joy Hauser & Anthony Atkinson 
- * Class: CIS 501
- * Due Date: 2/17/16
- **/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using EVIC.DashboardDisplay;
 
-namespace EVIC
+namespace EVIC_ConsoleApp
 {
-    class Program
+    public class Program
     {
         private static Model data = new Model();
         private DashboardDisplay display = new DashboardDisplay(data);
         private Simulator sim = new Simulator(data);
         private static Controller cont = new Controller(data);
 
-        static void Main() {
+        // Main
+        //
+        // Main functionality for program to start at
+        static void Main()
+        {
             Program currentProgram = new Program();
             int status = 0;
             while (status == 0)

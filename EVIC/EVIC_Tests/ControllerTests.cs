@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EVIC;
+using EVIC_ConsoleApp;
 using System.Collections.Generic;
 
-namespace EVICTests
+namespace EVIC_Tests
 {
     [TestClass]
-    public class ControllerTest
+    public class ControllerTests
     {
         // Create an instance of the controller class to test
         private static Model data = new Model();
@@ -169,14 +169,14 @@ namespace EVICTests
         {
             // Arguments
             List<string> catNames = new List<string>()
-            {
-                "cat1"
-            };
+                {
+                    "cat1"
+                };
             List<string> arrowDirs = new List<string>()
-            {
-                "a1",
-                "a2"
-            };
+                {
+                    "a1",
+                    "a2"
+                };
 
             cont.DisplayOption(catNames, arrowDirs);
         }
@@ -196,15 +196,15 @@ namespace EVICTests
         {
             // Arguments
             List<string> catNames = new List<string>()
-            {
-                "cat1",
-                "cat 2"
-            };
+                {
+                    "cat1",
+                    "cat 2"
+                };
             List<string> arrowDirs = new List<string>()
-            {
-                "a1",
-                "a2"
-            };
+                {
+                    "a1",
+                    "a2"
+                };
 
             cont.DisplayOption(catNames, arrowDirs);
         }
@@ -217,25 +217,25 @@ namespace EVICTests
         {
             // Arguments
             List<string> catNames = new List<string>()
-            {
-                "Trip Info",
-                "Warning Messages",
-                "Door Ajar",
-                "Check Engine",
-                "SystemInfo",
-                "Units",
-                "Temp Info"
-            };
+                {
+                    "Trip Info",
+                    "Warning Messages",
+                    "Door Ajar",
+                    "Check Engine",
+                    "SystemInfo",
+                    "Units",
+                    "Temp Info"
+                };
             List<string> arrowDirs = new List<string>()
-            {
-                "left",
-                "up",
-                "up&down",
-                "down",
-                "right",
-                "space",
-                "escape"
-            };
+                {
+                    "left",
+                    "up",
+                    "up&down",
+                    "down",
+                    "right",
+                    "space",
+                    "escape"
+                };
 
             cont.DisplayOption(catNames, arrowDirs);
         }

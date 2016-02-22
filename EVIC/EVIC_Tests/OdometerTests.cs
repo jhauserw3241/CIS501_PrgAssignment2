@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EVIC;
+using EVIC_ConsoleApp;
 
-namespace EVICTests
+namespace EVIC_Tests
 {
     [TestClass]
     public class OdometerTests

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace EVIC
+namespace EVIC_ConsoleApp
 {
     public class DashboardDisplay
     {
@@ -127,7 +128,7 @@ namespace EVIC
                 Console.WriteLine("");
             }
         }
- 
+
         // System Status Map
         //
         // Display and handle the system status options
@@ -292,7 +293,7 @@ namespace EVIC
                 // Interpret the user's choice
                 ConsoleKeyInfo input = Console.ReadKey();
                 int state = cont.GetAction(input);
-                
+
                 // Left arrow key pressed
                 if (9 == state)
                 {

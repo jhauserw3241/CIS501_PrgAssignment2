@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EVIC;
+using EVIC_ConsoleApp;
 using System.Collections.Generic;
 
-namespace EVICTests
+namespace EVIC_Tests
 {
     [TestClass]
-    public class DashboardDisplayTest
+    public class DashboardDisplayTests
     {
         private static Model data = new Model();
         private DashboardDisplay dash = new DashboardDisplay(data);
@@ -62,7 +62,7 @@ namespace EVICTests
             dash.TripInfoOptions();
         }
         #endregion
-        
+
         // Valid Set Display Options Test
         //
         // Verify that the set display option can output text to
@@ -71,16 +71,16 @@ namespace EVICTests
         public void ValidSetDisplayOptions()
         {
             List<string> exmp1 = new List<string>()
-            {
-                "System Status",
-                "Trip Info"
-            };
+                {
+                    "System Status",
+                    "Trip Info"
+                };
 
             List<string> exmp2 = new List<string>()
-            {
-                "left",
-                "right"
-            };
+                {
+                    "left",
+                    "right"
+                };
 
             dash.SetDisplayOptions(exmp1, exmp2);
         }

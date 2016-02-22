@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace EVIC
+namespace EVIC_ConsoleApp
 {
     public class Simulator
     {
@@ -12,7 +13,7 @@ namespace EVIC
         private Odometer odo;
         private Warnings warn;
         private Temperature temp;
-        
+
         public int MenuMem { get { return menuMem; } }
 
         // Constructor
@@ -79,7 +80,7 @@ namespace EVIC
             Console.WriteLine("║Esc│ Return to Menu      ║");
             Console.WriteLine("╚═══╧═════════════════════╝");
         }
-        
+
         // Get Temperature
         // 
         // Prompts the user for a new temperature value, returns the original value if an incorrect value is entered.
