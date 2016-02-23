@@ -66,6 +66,10 @@
       <Project>{0ab6ef6c-c920-4eda-a631-982a3a95c9f1}</Project>
       <Name>EVIC_ConsoleApp</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EVIC_Library\EVIC_Library.csproj">
+      <Project>{9dba288d-7ddc-4d78-a736-bafcfb2f71c9}</Project>
+      <Name>EVIC_Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

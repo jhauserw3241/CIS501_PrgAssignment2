@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EVIC_ConsoleApp;
+using EVIC_Library;
 
 namespace EVIC_Tests
 {
