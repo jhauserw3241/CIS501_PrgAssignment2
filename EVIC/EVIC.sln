@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVIC_Tests", "EVIC_Tests\EV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVIC_Library", "EVIC_Library\EVIC_Library.csproj", "{9DBA288D-7DDC-4D78-A736-BAFCFB2F71C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVIC_GUIApp", "EVIC_GUIApp\EVIC_GUIApp.csproj", "{30BC6942-25EC-4CA7-A2CD-61D0EE7FBA15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9DBA288D-7DDC-4D78-A736-BAFCFB2F71C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DBA288D-7DDC-4D78-A736-BAFCFB2F71C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DBA288D-7DDC-4D78-A736-BAFCFB2F71C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BC6942-25EC-4CA7-A2CD-61D0EE7FBA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BC6942-25EC-4CA7-A2CD-61D0EE7FBA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BC6942-25EC-4CA7-A2CD-61D0EE7FBA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BC6942-25EC-4CA7-A2CD-61D0EE7FBA15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
